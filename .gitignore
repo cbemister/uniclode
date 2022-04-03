@@ -1,4 +1,11 @@
+# Dependencies
 node_modules
 package-lock.json
+
+# Local Netlify folder
 netlify/functions/serverless/**
 !netlify/functions/serverless/index.js
+
+# Eleventy folders
+.cache
+_site
